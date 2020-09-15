@@ -4,7 +4,7 @@ import com.mycompany.dvdstore.entity.MovieEntity;
 import com.mycompany.dvdstore.repository.GoLiveMovieRepository;
 import com.mycompany.dvdstore.repository.MovieRepository;
 
-public class MovieService {
+public class MovieService implements MovieServiceInterface{
 
     private GoLiveMovieRepository movieRepository=new GoLiveMovieRepository();
 
